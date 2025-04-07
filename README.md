@@ -13,15 +13,15 @@ The dataset used in this project comes from PepBCL.
 
 ## Usage
 ### Training the stream 1 module:
-python main.py
+```python main.py
 
 ### Prediction the stream 1 module:
 tester = Tester(model, data, args)
-python main.py
+```python main.py
 Then, the stream 1 module will generate a .txt file containing the predicted binding site information.
 
 ### Training the stream 2 module:
-python /train/protBert_main.py
+```python /train/protBert_main.py
 
 ### Evaluation
 The model computes the union of predictions from both streams as the final binding site prediction for evaluation.
