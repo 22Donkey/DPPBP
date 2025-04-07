@@ -16,8 +16,8 @@ The dataset used in this project comes from PepBCL.
 ```python main.py```
 
 ### Prediction the stream 1 module:
-tester = Tester(model, data, args)
-```python main.py```
+tester = Tester(model, data, args)  
+```python main.py```  
 Then, the stream 1 module will generate a .txt file containing the predicted binding site information.
 
 ### Training the stream 2 module:
